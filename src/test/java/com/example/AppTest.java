@@ -1,10 +1,11 @@
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+package com.example;
 
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
 class AppTest {
     @Test
-    void appHasGreeting() {
-        App app = new App();
-        assertNotNull(app);
+    void contextLoads() {
     }
 }

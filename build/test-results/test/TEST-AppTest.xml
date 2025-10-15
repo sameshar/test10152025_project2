@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-15T19:57:15" hostname="MASTER-SPRINGBC" time="0.059">
-  <properties/>
-  <testcase name="appHasGreeting()" classname="AppTest" time="0.059"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
