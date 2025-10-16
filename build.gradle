@@ -11,11 +11,23 @@ repositories {
 }
 
 dependencies {
+<<<<<<< Updated upstream
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 }
 
 application {
     mainClass = 'com.example.App'
+=======
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    runtimeOnly 'com.h2database:h2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+>>>>>>> Stashed changes
 }
 
 java {
